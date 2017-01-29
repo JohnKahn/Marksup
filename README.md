@@ -1,2 +1,2 @@
-# marksup
+# Marksup
 A modern Markdown editor, for the modern developer
