@@ -26,7 +26,7 @@ class MenuBarButton extends React.Component {
       },
     }
     return (
-      <a href='#' style={styles.button} onClick={this.props.onClick}>
+      <a href='#' style={[styles.button, this.props.style]} onClick={this.props.onClick}>
         <div style={styles.img}></div>
       </a>
     )

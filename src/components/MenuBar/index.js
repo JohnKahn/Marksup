@@ -2,7 +2,7 @@ import React from 'react';
 import Radium from 'radium';
 const { remote } = window.require('electron');
 
-import MenuBarButton from './MenuBarButton';
+import MenuBarButton from '../MenuBarButton';
 
 class MenuBar extends React.Component {
   constructor(props) {
@@ -34,9 +34,11 @@ class MenuBar extends React.Component {
         WebkitUserSelect: 'none',
         backgroundColor: '#2c3e50',
         display: 'flex',
+        padding: '0 5px',
         height: '40px',
         width: '100vw',
         zIndex: '99',
+        boxSizing: 'border-box',
       },
       title: {
         cursor: 'default',

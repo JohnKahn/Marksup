@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 import MenuBar from './components/MenuBar';
+import TabContainer from './components/TabContainer';
 
 class App extends React.Component {
   componentDidMount() {
@@ -13,7 +14,7 @@ class App extends React.Component {
     return (
       <div style={{
         margin: '0',
-        padding: '0',
+        padding: '40px 0 0 0',
         border: 'solid 1px #19242e',
         boxSizing: 'border-box',
         height: '100vh',
@@ -25,6 +26,7 @@ class App extends React.Component {
           top: '0',
           left: '0',
         }} />
+        <TabContainer />
       </div>
     )
   }

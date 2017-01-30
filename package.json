@@ -18,10 +18,14 @@
   },
   "homepage": "https://github.com/JohnKahn/Marksup#readme",
   "dependencies": {
+    "brace": "^0.9.1",
+    "brucedown": "^1.1.1",
     "lodash": "^4.17.4",
+    "marked": "^0.3.6",
     "radium": "^0.18.1",
     "react": "^15.4.2",
-    "react-dom": "^15.4.2"
+    "react-dom": "^15.4.2",
+    "react-split-pane": "^0.1.57"
   },
   "devDependencies": {
     "babel-core": "^6.22.1",

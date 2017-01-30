@@ -7,8 +7,14 @@ let mainWindow;
 function createMainWindow() {
   mainWindow = new BrowserWindow({
     width: 800,
+    'min-width': 800,
     height: 600,
     frame: false,
+    show: false,
+  });
+
+  mainWindow.on('ready-to-show', () => {
+    mainWindow.show();
   });
 
   mainWindow.loadURL(url.format({
